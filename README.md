@@ -1,9 +1,9 @@
 # 🌐 Node.js Web App Assignment
 
-![GitHub stars](https://img.shields.io/github/stars/nanthekumar/fs104-nodejs-assignment)
-![Last Commit](https://img.shields.io/github/last-commit/nanthekumar/fs104-nodejs-assignment)
-![License](https://img.shields.io/github/license/nanthekumar/fs104-nodejs-assignment)
-![Top Language](https://img.shields.io/github/languages/top/nanthekumar/fs104-nodejs-assignment)
+![GitHub stars](https://img.shields.io/github/stars/nanthekumar/nodejs-assignment)
+![Last Commit](https://img.shields.io/github/last-commit/nanthekumar/nodejs-assignment)
+![License](https://img.shields.io/github/license/nanthekumar/nodejs-assignment)
+![Top Language](https://img.shields.io/github/languages/top/nanthekumar/nodejs-assignment)
 
 A simple Node.js web application built **without** any frameworks like Express.js.  
 This project demonstrates core Node.js skills — routing, serving HTML/CSS, and handling requests manually.

@@ -1,17 +1,31 @@
-# Node.js Assignment
+# Project Title: Node.js Web App Assignment
 
-This is a basic Node.js web application built without any frameworks (no Express).
+A simple Node.js web application built without any frameworks like Express.js. Demonstrates basic routing, dynamic HTML content, and serving static assets.
 
-## 🔧 How to Run Locally
+## 🛠 Features
+- Routing: `/`, `/about`, `/contact`
+- Dynamic datetime rendering
+- CSS styling via public folder
+- 404 error page handling
 
-1. Clone this repo  
-   `git clone https://github.com/nanthekumar/nodejs-assignment.git`
+## 📂 File Structure
+project-folder/
+├── index.js
+├── views/
+│ ├── index.html
+│ ├── about.html
+│ ├── contact.html
+│ └── 404.html
+├── public/
+│ └── styles.css
 
-2. Navigate into the folder  
-   `cd nodejs-assignment`
 
-3. Run the server  
-   `node index.js`
+## 🧪 How to Run
+```bash
+node index.js
+Then visit http://localhost:3000 in your browser.
 
-4. Open in browser:  
-   `http://localhost:3000`
+🧠 Learnings
+Built raw HTTP server in Node.js
+Served HTML without Express
+Added CSS and handled routing manually

@@ -1,31 +1,39 @@
-# Project Title: Node.js Web App Assignment
+# 🌐 Node.js Web App Assignment
 
-A simple Node.js web application built without any frameworks like Express.js. Demonstrates basic routing, dynamic HTML content, and serving static assets.
+![GitHub stars](https://img.shields.io/github/stars/nanthekumar/fs104-nodejs-assignment)
+![Last Commit](https://img.shields.io/github/last-commit/nanthekumar/fs104-nodejs-assignment)
+![License](https://img.shields.io/github/license/nanthekumar/fs104-nodejs-assignment)
+![Top Language](https://img.shields.io/github/languages/top/nanthekumar/fs104-nodejs-assignment)
+
+A simple Node.js web application built **without** any frameworks like Express.js.  
+This project demonstrates core Node.js skills — routing, serving HTML/CSS, and handling requests manually.
+
+---
 
 ## 🛠 Features
-- Routing: `/`, `/about`, `/contact`
-- Dynamic datetime rendering
-- CSS styling via public folder
-- 404 error page handling
 
-## 📂 File Structure
-project-folder/
-├── index.js
-├── views/
-│ ├── index.html
-│ ├── about.html
-│ ├── contact.html
-│ └── 404.html
-├── public/
-│ └── styles.css
+- ✅ Basic Routing (`/`, `/about`, `/contact`)
+- 🕒 Dynamic date & time displayed on homepage
+- 🎨 CSS styling served from `/public` folder
+- ⚠️ Custom 404 error page handling
 
+---
 
-## 🧪 How to Run
+---
+
+## ▶️ How to Run
+
 ```bash
 node index.js
-Then visit http://localhost:3000 in your browser.
+Then open your browser and go to:
+📍 http://localhost:3000
 
-🧠 Learnings
-Built raw HTTP server in Node.js
-Served HTML without Express
-Added CSS and handled routing manually
+📚 What I Learned
+- Set up a raw HTTP server using Node.js core modules
+- Served HTML files and replaced template tags with dynamic values
+- Handled file paths using path and served static files manually
+= Added basic UI styling without frontend frameworks
+- Created a minimalistic web app using only built-in modules
+
+
+
